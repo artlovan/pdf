@@ -1,0 +1,12 @@
+version: '3.0'
+
+services:
+  pdf-service:
+    build: .
+    image: pdf-service:latest
+    container_name: pdf-service
+    ports:
+      - "8088:8088"
+      - "8098:8098"
+#    volumes:
+#      - .docroot:/var/www
