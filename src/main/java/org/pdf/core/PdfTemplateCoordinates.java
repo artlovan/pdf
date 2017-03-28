@@ -49,7 +49,7 @@ public class PdfTemplateCoordinates {
     /**
      * Additionally to mapFields() with no arguments, this method take PdfFieldNameParsable
      * so the Pdf Field Name can be parsed first and resulting String if added to the List.
-     * @return List of Pages, where a Page holds  List of Fields belonging to the Page.
+     * @return List of Pages, where a Page holds List of Fields belonging to the Page.
      */
     public List<Page> mapFields(PdfFieldNameParsable parsable) {
         AcroFields acroFields = reader.getAcroFields();

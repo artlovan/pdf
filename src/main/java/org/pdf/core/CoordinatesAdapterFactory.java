@@ -8,6 +8,10 @@ import static org.pdf.core.CoordinatesSupplier.define;
  */
 public class CoordinatesAdapterFactory {
 
+    private CoordinatesAdapterFactory() {
+
+    }
+
     /**
      * Helper to manipulate coordinates in case default one are not precise
      * @param x coordinate

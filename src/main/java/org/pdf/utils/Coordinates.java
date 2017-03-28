@@ -14,6 +14,10 @@ import static org.pdf.core.utils.UnitConversions.mm2pt;
  */
 public class Coordinates {
 
+    private Coordinates() {
+
+    }
+
     /**
      * Convenience method to supply CoordinatesSupplier
      * @param f type Field
