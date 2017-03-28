@@ -12,8 +12,9 @@ Technologies wired up for use
 Docker Usage
 ------------
     1. Make sure docker is up & running
-    2. To start service, in terminal issue: docker-compose up -d
-    3. To stop service, in terminal issue: docker-compose down
+    2. cd into projects root dir (pdf dir)
+    3. To start service, in terminal issue: docker-compose up -d
+    4. To stop service, in terminal issue: docker-compose down
 
 
 Check is service is up * running
