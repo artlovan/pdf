@@ -17,7 +17,7 @@ Docker Usage
     4. To stop service, in terminal issue: docker-compose down
 
 
-Check is service is up * running
+Check if service is up * running
 --------------------------------
     Curl: curl localhost:8098/health | json_pp
 
