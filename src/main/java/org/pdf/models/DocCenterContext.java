@@ -33,7 +33,7 @@ public class DocCenterContext {
     private String host;
 
     @NotNull(message = "port can't be null")
-    @Min(value = 1, message = "port has to be a int number")
+    @Min(value = 1, message = "port has to be an int number")
     private Integer port;
 
     @JsonProperty("tenant_code")
